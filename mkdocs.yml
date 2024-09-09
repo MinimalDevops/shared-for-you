@@ -1,0 +1,89 @@
+site_name: Minimal Devops
+site_url: https://MinimalDevops.github.io/mkdocs/
+theme:
+  name: material
+  #favicon: images/favicon.png
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.footer
+    - navigation.top
+    - navigation.indexes
+    - navigation.tracking
+    - navigation.tabs.sticky
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+    - toc.follow     # or toc.integrate
+    - header.autohide
+    - announce.dismiss
+  language: en
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline 
+        name: Switch to dark mode
+      primary: blue
+      accent: lime 
+    - scheme: slate 
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode    
+      primary: black
+      accent: deep orange
+
+plugins:
+  - tags:
+      tags_file: tags.md
+  - blog
+  - mkdocs-pdf
+  - macros
+
+
+extra:
+  pdf: "true"
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/MinimalDevops/shared-for-you
+    - icon: fontawesome/brands/medium
+      link: https://medium.com/@minimaldevops
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/minimal-devops
+  
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:pymdownx.emoji.twemoji
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+
+copyright: |
+  &copy; 2024 <a href="https://github.com/MinimalDevops"  target="_blank" rel="noopener">Minimal Devops</a>
+
+nav:
+  - Home: index.md
+  - AWS:
+      - About: AWS/about.md
+      - 'Table of Contents':
+        - 'Networking':
+          - 'VPC Endpoint': AWS/Networking/vpc endpoint.md
+        - 'Database':  
+          - 'Cost Optimization': AWS/Database/cost saving.md
+  - 'Tags': tags.md
+  - Blog:
+    - blog/index.md
+
