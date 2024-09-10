@@ -22,13 +22,13 @@ theme:
     - announce.dismiss
   language: en
   palette:
-    - scheme: slate
+    - scheme: default
       toggle:
         icon: material/toggle-switch-off-outline 
         name: Switch to dark mode
       primary: blue
       accent: lime 
-    - scheme: default 
+    - scheme: slate
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode    
@@ -42,6 +42,7 @@ plugins:
   - mkdocs-pdf
   - macros
   - search
+  - obsidian-interactive-graph
 
 
 extra:
@@ -53,6 +54,14 @@ extra:
       link: https://medium.com/@minimaldevops
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/company/minimal-devops
+
+extra_javascript:
+  - https://fastly.jsdelivr.net/npm/jquery/dist/jquery.min.js
+  - https://fastly.jsdelivr.net/npm/echarts/dist/echarts.min.js
+  - assets/javascripts/interactive_graph.js
+
+extra_css:
+  - assets/stylesheets/interactive_graph.css
   
 
 markdown_extensions:
@@ -102,7 +111,7 @@ nav:
   #- InfraAsCode:
     #Add Diagram as code
   #- Vscode:
-    #Add about extensions
+    #TODO: #Add about extensions
   - 'Tags': tags.md
   - Blog:
     - blog/index.md
