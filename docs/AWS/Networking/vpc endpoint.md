@@ -1,3 +1,9 @@
+---
+tags:
+  - VPC Endpoint
+  - AWS Networking
+---
+
 # VPC Endpoint Services
 
 ## Types of VPC Endpoints
@@ -73,10 +79,3 @@ Even if you are triggering Lambda from anywhere inside your VPC, you need a VPC 
 
       ![PDF](pdf/Comparison_of_Web_Development_Stacks.pdf){ type=application/pdf style="min-height:100vh;width:100%" }
 {% endif %}
-
-
-??? note "is here"
-
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
-    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
-    massa, nec semper lorem quam in massa.

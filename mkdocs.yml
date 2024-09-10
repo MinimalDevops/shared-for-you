@@ -22,13 +22,13 @@ theme:
     - announce.dismiss
   language: en
   palette:
-    - scheme: default
+    - scheme: slate
       toggle:
         icon: material/toggle-switch-off-outline 
         name: Switch to dark mode
       primary: blue
       accent: lime 
-    - scheme: slate 
+    - scheme: default 
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode    
@@ -41,6 +41,7 @@ plugins:
   - blog
   - mkdocs-pdf
   - macros
+  - search
 
 
 extra:
@@ -83,6 +84,25 @@ nav:
           - 'VPC Endpoint': AWS/Networking/vpc endpoint.md
         - 'Database':  
           - 'Cost Optimization': AWS/Database/cost saving.md
+  #- Azure:
+  #- GCP:
+  - Databases:
+      - About: Databases/about.md
+      - 'Table of Contents':
+        - 'Sql': 
+          - 'Basic Concepts': Databases/Sql/basic-concepts.md
+  #- System Designs:
+  #- Kubernetes:
+  #- Containers:
+  #- Git:
+    # Add about readme, doc as code
+  #- Coding: 
+  #- Security:
+  #- Monitoring:
+  #- InfraAsCode:
+    #Add Diagram as code
+  #- Vscode:
+    #Add about extensions
   - 'Tags': tags.md
   - Blog:
     - blog/index.md
