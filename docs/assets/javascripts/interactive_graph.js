@@ -47,6 +47,12 @@ var option;
 $.getJSON(document.currentScript.src + '/../graph.json', function (graph) {
 myChart.hideLoading();
 
+//Added by Tapi
+//graph.nodes = graph.nodes.filter(function (node) {
+//    return node.name === '..//../AWS/about.md';
+//  });
+  
+
 // an offset of 5, so the dot/node is not that small
 graph.nodes.forEach(function (node) {
 node.symbolSize += 5;
@@ -140,3 +146,8 @@ draw_graph(myChart);
 myChart = init_graph();
 draw_graph(myChart);
 });
+
+// added by me
+
+
+  

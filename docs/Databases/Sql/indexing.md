@@ -4,8 +4,6 @@ tags:
   - SQL
 ---
 
-# Basic Concepts
-
 ## Index or Indexing
 
 **Indexes** are vital tools in databases, primarily used to speed up query performance by creating pointers to where data is stored. In MySQL, indexes serve three main purposes: finding rows quickly, sorting data efficiently, and reading data directly from the index without accessing the row data itself. MySQL primarily uses **BTREE indexes**, which are efficient for range queries but have limitations when dealing with interval ranges.
@@ -30,4 +28,13 @@ Indexes are especially beneficial for large databases, as they reduce the number
       ![PDF](pdf/percona.com-3 ways MySQL uses indexes.pdf){ type=application/pdf style="min-height:100vh;width:100%" }
 {% endif %}
 
-[About](../about.md)
+
+[[VPC|../../../AWS/Networking/vpc endpoint]]
+
+[[../../../AWS/Networking/vpc endpoint|VPC]]
+
+[VPC](../../../AWS/Networking/vpc endpoint)
+
+
+
+

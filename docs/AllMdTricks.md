@@ -157,3 +157,9 @@ JS Variable: `let x = 1`
 {% if pdf == "true" %}
 # If Else Works
 {% endif %}
+
+## To add links for graph
+
+use the format
+
+[[Page Name|Link Text]]

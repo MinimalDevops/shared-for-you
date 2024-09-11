@@ -2,6 +2,7 @@ site_name: Minimal Devops
 site_url: https://MinimalDevops.github.io/mkdocs/
 theme:
   name: material
+  include_search_page: true
   #favicon: images/favicon.png
   features:
     - navigation.tabs
@@ -43,6 +44,8 @@ plugins:
   - macros
   - search
   - obsidian-interactive-graph
+  - ezlinks:
+      wikilinks: true
 
 
 extra:
@@ -58,9 +61,11 @@ extra:
 extra_javascript:
   - https://fastly.jsdelivr.net/npm/jquery/dist/jquery.min.js
   - https://fastly.jsdelivr.net/npm/echarts/dist/echarts.min.js
+  - assets/javascripts/obsidian_tags.js
   - assets/javascripts/interactive_graph.js
 
 extra_css:
+  - assets/stylesheets/obsidian_tags.css
   - assets/stylesheets/interactive_graph.css
   
 
@@ -87,7 +92,7 @@ copyright: |
 nav:
   - Home: index.md
   - AWS:
-      - About: AWS/about.md
+      - AWS/index.md
       - 'Table of Contents':
         - 'Networking':
           - 'VPC Endpoint': AWS/Networking/vpc endpoint.md
@@ -96,10 +101,10 @@ nav:
   #- Azure:
   #- GCP:
   - Databases:
-      - About: Databases/about.md
+      - Databases/index.md
       - 'Table of Contents':
         - 'Sql': 
-          - 'Basic Concepts': Databases/Sql/basic-concepts.md
+          - 'Indexing': Databases/Sql/indexing.md
   #- System Designs:
   #- Kubernetes:
   #- Containers:
