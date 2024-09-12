@@ -30,7 +30,7 @@ Indexes are especially beneficial for large databases, as they reduce the number
 
 [[../../../AWS/Networking/vpc endpoint|VPC]]
 
-[[/AWS/Networking/vpc endpoint|VPC1]]
+[[../AWS/Networking/vpc endpoint|VPC1]]
 
 
 

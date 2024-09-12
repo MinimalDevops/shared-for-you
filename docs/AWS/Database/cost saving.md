@@ -14,3 +14,6 @@ tags:
 
       ![PDF](pdf/medium.com-5 Strategies I Use To Save Big On Costs With DynamoDB.pdf){ type=application/pdf style="min-height:100vh;width:100%" }
 {% endif %}
+
+
+[[../../../Databases/Sql/indexing|Indexing]]

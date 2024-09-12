@@ -11,7 +11,7 @@ theme:
     - navigation.top
     - navigation.indexes
     - navigation.tracking
-    - navigation.tabs.sticky
+    #- navigation.tabs.sticky
     - search.suggest
     - search.highlight
     - search.share
