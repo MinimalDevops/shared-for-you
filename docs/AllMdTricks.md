@@ -163,3 +163,7 @@ JS Variable: `let x = 1`
 use the format
 
 [[Page Name|Link Text]]
+
+## To use comments:
+
+[//]: # "Comment"

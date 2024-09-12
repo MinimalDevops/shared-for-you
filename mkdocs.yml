@@ -41,11 +41,11 @@ plugins:
       tags_file: tags.md
   - blog
   - mkdocs-pdf
-  - macros
   - search
   - obsidian-interactive-graph
   - ezlinks:
       wikilinks: true
+  - macros
 
 
 extra:
