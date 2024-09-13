@@ -35,17 +35,19 @@ theme:
         name: Switch to light mode    
       primary: black
       accent: deep orange
+  use_directory_urls: True
+
 
 plugins:
   - tags:
       tags_file: tags.md
   - blog
+  - macros
   - mkdocs-pdf
   - search
   - obsidian-interactive-graph
   - ezlinks:
       wikilinks: true
-  - macros
 
 
 extra:
@@ -95,9 +97,9 @@ nav:
       - AWS/index.md
       - 'Table of Contents':
         - 'Networking':
-          - 'VPC Endpoint': AWS/Networking/vpc endpoint.md
+          - 'VPC Endpoint': AWS/Networking/vpcendpoint.md
         - 'Database':  
-          - 'Cost Optimization': AWS/Database/cost saving.md
+          - 'Cost Optimization': AWS/Database/costsaving.md
   #- Azure:
   #- GCP:
   - Databases:

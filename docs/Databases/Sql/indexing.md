@@ -28,9 +28,13 @@ Indexes are especially beneficial for large databases, as they reduce the number
       ![PDF](pdf/percona.com-3 ways MySQL uses indexes.pdf){ type=application/pdf style="min-height:100vh;width:100%" }
 {% endif %}
 
-[[../../../AWS/Networking/vpc endpoint|VPC]]
 
-[[../AWS/Networking/vpc endpoint|VPC1]]
+
+
+[[../AWS/Networking/vpcendpoint|VPC-Obsidian]]
+
+
+[VPC2](../../AWS/Networking/vpcendpoint.md)
 
 
 
