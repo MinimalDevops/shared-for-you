@@ -3,7 +3,7 @@ site_url: https://MinimalDevops.github.io/mkdocs/
 theme:
   name: material
   include_search_page: true
-  #favicon: images/favicon.png
+  favicon: images/MinimalDevopsLogo.png
   features:
     - navigation.tabs
     - navigation.sections
@@ -48,6 +48,7 @@ plugins:
   - obsidian-interactive-graph
   - ezlinks:
       wikilinks: true
+      warn_ambiguities: true
 
 
 extra:
@@ -97,18 +98,22 @@ nav:
       - AWS/index.md
       - 'Table of Contents':
         - 'Networking':
-          - 'VPC Endpoint': AWS/Networking/vpcendpoint.md
+          - 'VPC Endpoint': AWS/Networking/AWSNetworkingVpcEndpoint.md
         - 'Database':  
-          - 'Cost Optimization': AWS/Database/costsaving.md
+          - 'Cost Optimization': AWS/Database/AWSDatabaseCostSaving.md
   #- Azure:
   #- GCP:
   - Databases:
       - Databases/index.md
       - 'Table of Contents':
         - 'Sql': 
-          - 'Indexing': Databases/Sql/indexing.md
+          - 'Indexing': Databases/Sql/DatabasesSqlIndexing.md
   #- System Designs:
-  #- Kubernetes:
+  - Kubernetes:
+      - Kubernetes/index.md
+      - 'Table of Contents':
+        - 'Deployment Tools':
+          - 'Kluctl': Kubernetes/Deployment Tools/KubernetesDeploymentToolsKluctl.md
   #- Containers:
   #- Git:
     # Add about readme, doc as code
