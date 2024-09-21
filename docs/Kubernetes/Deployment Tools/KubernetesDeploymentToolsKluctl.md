@@ -4,10 +4,10 @@ tags:
   - Kubernetes Deployments
 ---
 
-## Kluctl
+# Kluctl - Deployment Tool
 
 ### Use Case
-Kluctl is used for managing complex Kubernetes deployments by combining the strengths of Helm and Kustomize while addressing their limitations. It is particularly suitable for teams looking to integrate a more flexible and declarative approach to their deployment process, especially when utilizing GitOps workflows.
+Kluctl is used for managing complex [[../Kubernetes|Kubernetes]] deployments by combining the strengths of Helm and Kustomize while addressing their limitations. It is particularly suitable for teams looking to integrate a more flexible and declarative approach to their deployment process, especially when utilizing GitOps workflows.
 
 ### Pros
 - **Declarative Deployments**: Allows for consistent and reproducible deployments using YAML files.
@@ -52,15 +52,10 @@ Kustomize is used to customize Kubernetes YAML configurations without modifying 
 {% if pdf == "true" %}
 ??? note "Checkout the PDF"
 
-      [Kluctl](https://itnext.io/how-to-simplify-kubernetes-deployments-with-kluctl-2c3f71d4b71a)
+      [Source](https://itnext.io/how-to-simplify-kubernetes-deployments-with-kluctl-2c3f71d4b71a)
       ![PDF](pdf/itnextio-Kluctl vs Helm amp Kustomize Kubernetes Made Simple.pdf){ type=application/pdf style="min-height:100vh;width:100%" }
 {% endif %}
 
-[[../Kubernetes|Kubernetes]]
-[[../Databases|Databases]]
-
-
-[[DatabasesSqlIndexing|Indexing]]
 
 
 

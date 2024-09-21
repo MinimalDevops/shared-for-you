@@ -39,16 +39,21 @@ theme:
 
 
 plugins:
+  - meta-manager:
+      merge_entries: ['tags']
   - tags:
       tags_file: tags.md
   - blog
-  - macros
+  - macros:
+      include_yaml:
+        - docs/assets/yaml/macro1.yml
   - mkdocs-pdf
   - search
   - obsidian-interactive-graph
   - ezlinks:
       wikilinks: true
       warn_ambiguities: true
+
 
 
 extra:
