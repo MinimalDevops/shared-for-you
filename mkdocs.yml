@@ -106,6 +106,8 @@ nav:
           - 'VPC Endpoint': AWS/Networking/AWSNetworkingVpcEndpoint.md
         - 'Database':  
           - 'Cost Optimization': AWS/Database/AWSDatabaseCostSaving.md
+        - 'Services':
+          - 'Eventbridge' : AWS/Services/AWSServicesEventbridge.md
   #- Azure:
   #- GCP:
   - Databases:
@@ -113,7 +115,12 @@ nav:
       - 'Table of Contents':
         - 'Sql': 
           - 'Indexing': Databases/Sql/DatabasesSqlIndexing.md
-  #- System Designs:
+          - 'Tools': Databases/Sql/DatabasesSqlTools.md
+  - System Design:
+      - System Design/index.md
+      - 'Table of Contents':
+        - 'Architectures':
+          - 'Event Driven Architecture': System Design/Architecture/SystemDesignEventDrivenAchitecture.md
   - Kubernetes:
       - Kubernetes/index.md
       - 'Table of Contents':
@@ -122,7 +129,16 @@ nav:
   #- Containers:
   #- Git:
     # Add about readme, doc as code
-  #- Coding: 
+  - Coding: 
+      - Coding/index.md
+      - 'Table of Contents':
+        - 'Command Line Tools': 
+          - 'JQ': Coding/Command Line Tools/CodingCommandLineToolsJq.md
+  - Data Engineering: 
+      - Data Engineering/index.md
+      - 'Table of Contents':
+        - 'Data Lake': 
+          - 'Apache Hudi': Data Engineering/Data Lake/DataEngineeringDataLakeApacheHudi.md
   #- Security:
   #- Monitoring:
   #- InfraAsCode:

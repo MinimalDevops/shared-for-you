@@ -3,7 +3,7 @@ tags:
   - Cost Optimization
 ---
 
-# Database Cost Optimization
+# AWS Database Cost Optimization
 
 ## Dynamo Db
 

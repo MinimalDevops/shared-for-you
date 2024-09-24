@@ -45,7 +45,7 @@
 	"md.command4": {
 		"scope": "markdown",
 		"prefix": "mdimage",
-		"body": "![${2}](${TM_SELECTED_TEXT:'${1:IMAGE_NAME_HERE}'})",
+		"body": "![[${TM_SELECTED_TEXT:${1:IMAGE_NAME_HERE}}]]",
 		"description": "Image WikiLink"
 	}
 }

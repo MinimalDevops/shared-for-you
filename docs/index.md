@@ -1,4 +1,4 @@
-# Welcome to Minimal Devops by {{author}}
+# Welcome to Minimal Devops by {{author}} 
 
 ![Image](MinimalDevopsHeader)
 

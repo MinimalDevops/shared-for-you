@@ -1,7 +1,6 @@
 ---
 tags:
-  - Database
-  - SQL
+  - Indexing
 ---
 
 
@@ -28,5 +27,11 @@ Indexes are especially beneficial for large databases, as they reduce the number
 
       ![PDF](pdf/percona.com-3 ways MySQL uses indexes.pdf){ type=application/pdf style="min-height:100vh;width:100%" }
 {% endif %}
+
+# Tools
+
+## Diagram and Layout
+
+[ChartDB: Database as Diagram](https://github.com/chartdb/chartdb)
 
 
