@@ -16,6 +16,10 @@ tags:
 An **interface endpoint** is an elastic network interface with a private IP address from the IP address range of your subnet. It acts as an entry point for traffic destined to a service owned by AWS or by an AWS customer/partner.
 
 For [[../AWS|AWS]] services that integrate with AWS PrivateLink, see [AWS services that integrate with AWS PrivateLink](https://docs.aws.amazon.com/vpc/latest/privatelink/integrated-services-vpce.html).
+{% if pdf == 'true' %}
+??? note "Checkout the PDF"
+      ![PDF](pdf/integrated-services-vpce.pdf){ type=application/pdf style='min-height:100vh;width:100%' }
+ {% endif %}
 
 ### Gateway Endpoints
 **Gateway Endpoints** are primarily used for S3 or DynamoDB. They are usually set up by making an entry in route tables.
@@ -71,11 +75,4 @@ To access Redis from one AWS account to another:
 ## Lambda Function with VPC Endpoints
 
 Even if you are triggering Lambda from anywhere inside your VPC, you need a VPC endpoint of the interface type.
-
-
-{% if pdf == "true" %}
-??? note "Checkout the PDF"
-
-      ![PDF](pdf/Comparison_of_Web_Development_Stacks.pdf){ type=application/pdf style="min-height:100vh;width:100%" }
-{% endif %}
 

@@ -7,6 +7,6 @@ tags:
 
 ## Diagram and Layout
 
-1. [ChartDB: Database as Diagram](https://github.com/chartdb/chartdb)
+* [ChartDB: Database as Diagram](https://github.com/chartdb/chartdb)
 
 

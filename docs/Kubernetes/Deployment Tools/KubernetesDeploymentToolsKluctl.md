@@ -48,11 +48,10 @@ Kustomize is used to customize Kubernetes YAML configurations without modifying 
 - **Complexity in Large Deployments**: Managing very complex or large-scale deployments can be challenging due to the lack of package management features like those in Helm.
 - **Less Modularity**: Compared to Helm, Kustomize may require more manual configuration and does not support as much out-of-the-box reuse of configurations.
 
-
+* [Source](https://itnext.io/how-to-simplify-kubernetes-deployments-with-kluctl-2c3f71d4b71a)
 {% if pdf == "true" %}
 ??? note "Checkout the PDF"
 
-      [Source](https://itnext.io/how-to-simplify-kubernetes-deployments-with-kluctl-2c3f71d4b71a)
       ![PDF](pdf/itnextio-Kluctl vs Helm amp Kustomize Kubernetes Made Simple.pdf){ type=application/pdf style="min-height:100vh;width:100%" }
 {% endif %}
 

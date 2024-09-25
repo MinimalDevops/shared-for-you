@@ -47,5 +47,11 @@
 		"prefix": "mdimage",
 		"body": "![[${TM_SELECTED_TEXT:${1:IMAGE_NAME_HERE}}]]",
 		"description": "Image WikiLink"
+	},
+	"md.command5": {
+		"scope": "markdown,yaml",
+		"prefix": "mdwiki",
+		"body": "[[${TM_SELECTED_TEXT:${1:MARKDOWN_HERE}}|${2:NAME_HERE}]]",
+		"description": "Markdown WikiLink"
 	}
 }

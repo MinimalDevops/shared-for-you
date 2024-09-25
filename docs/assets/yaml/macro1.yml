@@ -1,2 +1,18 @@
 "author" : "[[AWSNetworkingVpcEndpoint|Tapinder Singh]]"
+#AWS
+"aws_database_cost_saving": "[[AWSDatabaseCostSaving|AWS Database Cost Saving]]"
+"aws_vpc_endpoint": "[[AWSNetworkingVpcEndpoint|VPC Endpoint]]"
+"aws_eventbridge": "[[AWSServicesEventbridge|EventBridge]]"
+#Data Engineering
+"apache_hudi": "[[DataEngineeringDataLakeApacheHudi|Apache Hudi]]"
+#Databases
+"sql_indexing": "[[DatabasesSqlIndexing|Indexing]]"
+"sql_tools": "[[DatabasesSqlTools|SQL Tools]]"
+#Kubernetes
+"kluctl": "[[KubernetesDeploymentToolsKluctl|Kluctl]]"
+#System Design
 "system_design": "[[../System Design|System Design]]"
+
+
+
+
