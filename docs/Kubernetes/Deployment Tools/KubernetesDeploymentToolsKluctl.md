@@ -1,7 +1,6 @@
 ---
 tags:
-  - Kubernetes
-  - Kubernetes Deployments
+  - 
 ---
 
 # Kluctl - Deployment Tool

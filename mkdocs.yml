@@ -126,6 +126,8 @@ nav:
       - 'Table of Contents':
         - 'Deployment Tools':
           - 'Kluctl': Kubernetes/Deployment Tools/KubernetesDeploymentToolsKluctl.md
+        - 'Debug Tools':
+          - 'Kubeshark': Kubernetes/Debug Tools/KubernetesDebugToolsKubeshark.md
   #- Containers:
   #- Git:
     # Add about readme, doc as code

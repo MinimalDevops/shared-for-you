@@ -1,3 +1,1 @@
-# AWS
-
-[//]: # "Comment"
+# Heading
