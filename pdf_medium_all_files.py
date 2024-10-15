@@ -174,5 +174,5 @@ def process_all_markdown_in_directory(directory):
                 print(f"Finished processing: {markdown_path}")
 
 # Example usage
-docs_directory = 'docs/Data Engineering/'  # Replace with the root directory where your markdown files are stored
+docs_directory = 'docs/System Design/'  # Replace with the root directory where your markdown files are stored
 process_all_markdown_in_directory(docs_directory)

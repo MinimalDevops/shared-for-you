@@ -1,0 +1,28 @@
+2024-10-13 22:14:34 - Processing markdown files in directory: docs/System Design/
+2024-10-13 22:14:34 - Processing file: docs/System Design/Architecture/SystemDesignEventDrivenAchitecture.md
+2024-10-13 22:14:34 - Processing markdown file: docs/System Design/Architecture/SystemDesignEventDrivenAchitecture.md
+2024-10-13 22:14:34 - URL found: https://newsletter.systemdesigncodex.com/p/3-interview-questions-on-event-driven
+2024-10-13 22:14:34 - PDF already processed, skipping...
+2024-10-13 22:14:34 - URL found: https://medium.com/@mkremer_75412/why-postgres-rds-didnt-work-for-us-and-why-it-won-t-work-for-you-if-you-re-implementing-a-big-6c4fff5a8644
+2024-10-13 22:14:34 - Opening Chrome with profile...
+2024-10-13 22:14:36 - Attempting to download PDF for URL: https://medium.com/@mkremer_75412/why-postgres-rds-didnt-work-for-us-and-why-it-won-t-work-for-you-if-you-re-implementing-a-big-6c4fff5a8644
+2024-10-13 22:14:36 - Connected to Chrome successfully
+2024-10-13 22:14:36 - WebSocket URL: ws://localhost:9222/devtools/browser/fb5f226f-9fef-4565-bbf8-e5ee6bc27c73
+2024-10-13 22:14:36 - PDF already exists at docs/System Design/Architecture/pdf/why-postgres-rds-didnt-work-for-us-and-why-it-won-t-work-for-you-if-you-re-implementing-a-big-6c4fff5a8644.pdf, skipping download.
+2024-10-13 22:14:36 - Browser closed as PDF already exists.
+2024-10-13 22:14:36 - Starting summarization for docs/System Design/Architecture/pdf/why-postgres-rds-didnt-work-for-us-and-why-it-won-t-work-for-you-if-you-re-implementing-a-big-6c4fff5a8644.pdf
+2024-10-13 22:14:40 - PDF docs/System Design/Architecture/pdf/why-postgres-rds-didnt-work-for-us-and-why-it-won-t-work-for-you-if-you-re-implementing-a-big-6c4fff5a8644.pdf ingested successfully.
+2024-10-13 22:14:40 - Sending summarization request (Attempt 1)...
+2024-10-13 22:14:59 - Summary: A startup's attempt to measure marketing effectiveness via statistical attribution models led to scalability issues with AWS RDS managed PostgreSQL due to EBS throughput opacity and bursting IOPS. Migrating to Aurora didn't solve the problem, leading to a custom solution using EC2 instances with separate read/write workloads and ZFS compression for improved performance and cost savings.
+2024-10-13 22:14:59 - Inserted content after URL at line index: 19
+2024-10-13 22:14:59 - Markdown file docs/System Design/Architecture/SystemDesignEventDrivenAchitecture.md updated successfully.
+2024-10-13 22:14:59 - Document IDs for deletion: ['56cb814c-10c1-4a88-a793-dec1e40e724c', '45b9c0fc-8805-4fe0-a2fc-1ff40291cb35', '7e2d9b5d-7ab1-4ff0-87ca-27a30a4f4b81', 'f7a2b032-59b0-442d-89f2-e871d7beafca', 'e9fc255f-9df8-493c-b94b-afcc53b3eed1', '65a52e31-5f56-4497-b7bc-2d7784250b19', '224c1f6d-ad90-4575-9327-2a2c49e8469a', '3b04d12e-c810-4272-bce5-f5bc574f99c1']
+2024-10-13 22:14:59 - Document with doc_id 56cb814c-10c1-4a88-a793-dec1e40e724c successfully deleted.
+2024-10-13 22:14:59 - Document with doc_id 45b9c0fc-8805-4fe0-a2fc-1ff40291cb35 successfully deleted.
+2024-10-13 22:15:00 - Document with doc_id 7e2d9b5d-7ab1-4ff0-87ca-27a30a4f4b81 successfully deleted.
+2024-10-13 22:15:00 - Document with doc_id f7a2b032-59b0-442d-89f2-e871d7beafca successfully deleted.
+2024-10-13 22:15:00 - Document with doc_id e9fc255f-9df8-493c-b94b-afcc53b3eed1 successfully deleted.
+2024-10-13 22:15:00 - Document with doc_id 65a52e31-5f56-4497-b7bc-2d7784250b19 successfully deleted.
+2024-10-13 22:15:00 - Document with doc_id 224c1f6d-ad90-4575-9327-2a2c49e8469a successfully deleted.
+2024-10-13 22:15:01 - Document with doc_id 3b04d12e-c810-4272-bce5-f5bc574f99c1 successfully deleted.
+2024-10-13 22:15:01 - Finished processing: docs/System Design/Architecture/SystemDesignEventDrivenAchitecture.md

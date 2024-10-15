@@ -58,6 +58,7 @@ plugins:
 
 extra:
   pdf: "true"
+  summarized_content: "true"
   social:
     - icon: fontawesome/brands/github-alt
       link: https://github.com/MinimalDevops/shared-for-you
@@ -143,7 +144,11 @@ nav:
           - 'Apache Hudi': Data Engineering/Data Lake/DataEngineeringDataLakeApacheHudi.md
   #- Security:
   #- Monitoring:
-  #- InfraAsCode:
+  - InfraAsCode:
+      - InfraAsCode/index.md
+      - 'Table of Contents':
+        - 'Terraform':
+          - 'Atlantis': InfraAsCode/Terraform/InfraAsCodeTerraformAtlantis.md
     #Add Diagram as code
   #- Vscode:
     #TODO: #Add about extensions

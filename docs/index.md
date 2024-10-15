@@ -1,4 +1,4 @@
-# Welcome to Minimal Devops by {{author}} 
+# Welcome to Minimal Devops by {{author}}
 
 ![Image](MinimalDevopsHeader)
 
@@ -6,10 +6,11 @@
     WORK IN PROGRESS
 
 
+
 # Latest Modified Files
 
-1. [[AWSNetworkingVpcEndpoint|VPC Endpoint Services]]
+1. [[InfraAsCodeTerraformAtlantis|Atlantis]]
 2. [[KubernetesDeploymentToolsKluctl|Kluctl - Deployment Tool]]
-3. [[DatabasesSqlIndexing|SQL Index or Indexing]]
-4. [[AWSDatabaseCostSaving|Database Cost Optimization]]
-5. [[FirstBlog|First Blog]]
+3. [[KubernetesDebugToolsKubeshark|Kubeshark]]
+4. [[SystemDesignEventDrivenAchitecture|Event-Driven Architecture]]
+5. [[DatabasesSqlTools|Tools]]

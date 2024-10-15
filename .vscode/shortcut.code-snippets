@@ -28,7 +28,7 @@
 	"md.command3": {
 		"scope": "markdown",
 		"prefix": "mdurl",
-		"body": "[${2}](${TM_SELECTED_TEXT:'${1:URL_HERE}'})",
+		"body": "[${2}](${TM_SELECTED_TEXT:${1:URL_HERE}})",
 		"description": "URL Link"
 	},
 	"md.command4": {

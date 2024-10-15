@@ -2,7 +2,7 @@ import os
 import shutil
 
 # Define paths
-mkdocs_file_path = 'mkdocs-backup.yml'
+mkdocs_file_path = 'mkdocs.yml'
 docs_base_path = 'docs/'
 meta_file_path = 'samplefiles/.meta.yml'
 index_sample_file_path = 'samplefiles/index_sample.md'
