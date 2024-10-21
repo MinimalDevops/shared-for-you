@@ -6,11 +6,10 @@
     WORK IN PROGRESS
 
 
-
 # Latest Modified Files
 
-1. [[InfraAsCodeTerraformAtlantis|Atlantis]]
-2. [[KubernetesDeploymentToolsKluctl|Kluctl - Deployment Tool]]
-3. [[KubernetesDebugToolsKubeshark|Kubeshark]]
-4. [[SystemDesignEventDrivenAchitecture|Event-Driven Architecture]]
+1. [[SystemDesignEventDrivenAchitecture|Event-Driven Architecture]]
+2. [[InfraAsCodeTerraformAtlantis|Atlantis]]
+3. [[KubernetesDeploymentToolsKluctl|Kluctl - Deployment Tool]]
+4. [[KubernetesDebugToolsKubeshark|Kubeshark]]
 5. [[DatabasesSqlTools|Tools]]
